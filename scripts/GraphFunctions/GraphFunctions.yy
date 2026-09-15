@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GraphFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GraphFunctions",
+  "parent":{
+    "name":"SplineTesting",
+    "path":"SplineTesting.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

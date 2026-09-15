@@ -1,0 +1,37 @@
+{
+  "$GMProject":"v1",
+  "%Name":"SplineTesting",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"SplineTesting",
+  "resources":[
+    {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
+    {"id":{"name":"mng_game","path":"objects/mng_game/mng_game.yy",},},
+    {"id":{"name":"mng_points","path":"objects/mng_points/mng_points.yy",},},
+    {"id":{"name":"rm_graph","path":"rooms/rm_graph/rm_graph.yy",},},
+    {"id":{"name":"GraphFunctions","path":"scripts/GraphFunctions/GraphFunctions.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_graph","path":"rooms/rm_graph/rm_graph.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
