@@ -17,8 +17,8 @@ global.gridData.origin.y = global.gridData.rH - global.gridData.borderH;
 global.gridData.size.w   = global.gridData.rW - global.gridData.borderW;
 global.gridData.size.h   = global.gridData.rH - global.gridData.borderH;
 
-
-var _pts = instance_create_layer(x,y,layer,mng_points)
+/*
+var _pts = instance_create_depth(x,y,depth-1,mng_points)
 global.managers = {
 	points: _pts
 }
