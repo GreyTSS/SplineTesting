@@ -4,3 +4,4 @@ global.grid = array_create_ext(global.gridData.size.w div global.gridData.scale,
 
 setPoint(12, 12, {x:12, y:12})
 setPoint(4,14,{x:4,y:14})
+selected = noone;

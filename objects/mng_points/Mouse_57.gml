@@ -1,5 +1,5 @@
 var _mx = getMouseCoordX();
-var _my = getMouseCoordY()
+var _my = getMouseCoordY();
 if(getPoint(_mx, _my) == noone) {
 	setPoint(_mx, _my)
 	show_debug_message($"Point Set! {_mx},{_my}")
