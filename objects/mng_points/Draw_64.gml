@@ -5,7 +5,10 @@ draw_set_font(fnt_pixel)
 str = selected == noone ? "None" : ($"[{selected.x},{selected.y}]")
 draw_text(20, global.gridData.rH - 40, "Mouse At: ["+string(getMouseCoordX())+","+string(getMouseCoordY())+"]!")
 draw_text(20, global.gridData.rH - 20, $"Point Selected: {str}");
-
+draw_text(180, global.gridData.rH-40, $"Spline Count: {array_length(global.splines)}")
+draw_text(180, global.gridData.rH-20, $"Real Mouse: {mouse_x}, {mouse_y}")
+draw_text(340, global.gridData.rH-40, $"Orbiting: {draggingOrbit}")
+if(is_instanceof(selected, Point)) draw_text(340, global.gridData.rH-20, $"Selected Dir/Mag: {selected.dir}/{selected.mag}")
 draw_set_color(c_green)
 for(var i = 0; i < array_length(global.grid); i++) {
 	for(var e = 0; e < array_length(global.grid[i]); e++) {
@@ -14,4 +17,8 @@ for(var i = 0; i < array_length(global.grid); i++) {
 		draw_circle(global.gridData.origin.x + (global.gridData.scale*global.grid[i][e].x), global.gridData.origin.y - (global.gridData.scale*global.grid[i][e].y), global.gridData.scale * .35, false)
 		draw_set_color(c_green)
 	}
+}
+
+for(var i = 0; i < array_length(global.splines); i++) {
+	global.splines[i].draw();
 }
